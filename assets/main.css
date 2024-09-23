@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'ShoorVAR';
+    src: url('ShoorVAR-Thin.eot');
+    src: url('ShoorVAR-Thin.eot?#iefix') format('embedded-opentype'),
+        url('ShoorVAR-Thin.woff2') format('woff2'),
+        url('ShoorVAR-Thin.woff') format('woff'),
+        url('ShoorVAR-Thin.ttf') format('truetype'),
+        url('ShoorVAR-Thin.svg#ShoorVAR-Thin') format('svg');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
