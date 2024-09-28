@@ -1,12 +1,88 @@
+
 @font-face {
-    font-family: 'ShoorVAR';
-    src: url('ShoorVAR-Thin.eot');
-    src: url('ShoorVAR-Thin.eot?#iefix') format('embedded-opentype'),
-        url('ShoorVAR-Thin.woff2') format('woff2'),
-        url('ShoorVAR-Thin.woff') format('woff'),
-        url('ShoorVAR-Thin.ttf') format('truetype'),
-        url('ShoorVAR-Thin.svg#ShoorVAR-Thin') format('svg');
-    font-weight: 100;
-    font-style: normal;
-    font-display: swap;
+	font-family: Morabba;
+	font-style: normal;
+	font-weight: 200;
+	src: url('fonts/woff/Morabba-UltraLight.woff') format('woff'),   
+	url('fonts/woff2/Morabba-UltraLight.woff2') format('woff2');	
+}
+
+@font-face {
+	font-family: Morabba;
+	font-style: normal;
+	font-weight: 300;
+	src: url('font/woff/Morabba-light.woff') format('woff'),   
+	url('font/woff2/Morabba-light.woff2') format('woff2');		 
+}
+
+@font-face {
+	font-family: Morabba;
+	font-style: normal;
+	font-weight: 500;
+	src: url('font/woff/Morabba-medium.woff') format('woff'),   
+	url('font/woff2/Morabba-medium.woff2') format('woff2');		 
+}
+
+@font-face {
+	font-family: Morabba;
+	font-style: normal;
+	font-weight: 600;
+	src: url('font/woff/Morabba-semibold.woff') format('woff'),   
+	url('font/woff2/Morabba-semibold.woff2') format('woff2');	 
+}
+
+@font-face {
+	font-family: Morabba;
+	font-style: normal;
+	font-weight: 800;
+	src: url('font/woff/Morabba-e trabold.woff') format('woff'),   
+	url('font/woff2/Morabba-extrabold.woff2') format('woff2');		 
+}
+
+@font-face {
+	font-family: Morabba;
+	font-style: normal;
+	font-weight: 850;
+	src: url('font/woff/Morabba-black.woff') format('woff'),   
+	url('font/woff2/Morabba-black.woff2') format('woff2');		 
+}
+
+
+@font-face {
+	font-family: Morabba;
+	font-style: normal;
+	font-weight: 900;
+	src: url('font/woff/Morabba-Heavy.woff') format('woff'),   
+	url('font/woff2/Morabba-Heavy.woff2') format('woff2');		 
+}
+
+@font-face {
+	font-family: Morabba;
+	font-style: normal;
+	font-weight: bold;
+	src: url('font/woff/Morabba-bold.woff') format('woff'),   
+	url('font/woff2/Morabba-bold.woff2') format('woff2');	 
+}
+
+@font-face {
+	font-family: Morabba;
+	font-style: normal;
+	font-weight: normal;
+	src: url('font/woff/Morabba-regular.woff') format('woff'),   
+	url('font/woff2/Morabba-regular.woff2') format('woff2');	
+}
+
+*{
+    font-family: 'Morabba';
+    direction: rtl;
+	font-weight: 500;
+	-moz-font-feature-settings: "ss01";
+    -webkit-font-feature-settings: "ss01";
+    font-feature-settings: "ss01";
+}
+.text-Primary{
+	color: #9E624C;
+}
+.bg-Primary{
+	background-color: #9E624C;
 }
