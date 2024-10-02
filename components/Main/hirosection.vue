@@ -21,17 +21,31 @@
     </div>
 
     <div class="bg-[#847669] w-3/4 rounded-lg flex justify-start items-end">
-      <div class="flex flex-col self-center gap-5 mr-20 font-bold text-4xl whitespace-nowrap">
-        <h2>کافه از تو </h2>
+      <div
+        class="flex flex-col self-center gap-5 mr-20 font-bold text-4xl whitespace-nowrap"
+      >
+        <h2>کافه از تو</h2>
         <h4>تجهیزات با ما</h4>
-<nuxt-link to="/"><UIcon class="hover:w-14 hover:text-white/30 duration-300" name="material-symbols-light:arrow-left-alt-rounded" /></nuxt-link>
+        <nuxt-link to="/"
+          ><UIcon
+            class="hover:w-14 hover:text-white/30 duration-300"
+            name="material-symbols-light:arrow-left-alt-rounded"
+        /></nuxt-link>
       </div>
 
       <div class="flex justify-end w-full">
-      <NuxtImg class="w-4/6" src="/hand.png" />
+        <NuxtImg class="w-4/6" src="/hand.png" />
       </div>
-    
     </div>
-
   </div>
+
+
+
+<div class="absolute left-0 -mt-56  opacity-10 z-10">
+<NuxtImg class="w-20" src="/treeShape.png" />
+</div>
+
+<NuxtImg class="relative mt-16 z-20" src="/serperator.png" />
+
+
 </template>
