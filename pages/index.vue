@@ -4,6 +4,7 @@
     <MainHirosection />
     <MainCategory />
     <MainOffers />
+    <MainBanners />
   </NuxtLayout>
   </div>
 </template>

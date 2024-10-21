@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-20 mb-96">
+  <div class="mt-20 mb-32">
     <div class="">
       <h1 class="absolute text-white right-1/2 translate-x-1/2 mt-5 text-3xl">
         تخفیفات ویژه
