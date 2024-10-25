@@ -5,6 +5,7 @@
     <MainCategory />
     <MainOffers />
     <MainBanners />
+    <MainMostSeller />
   </NuxtLayout>
   </div>
 </template>
